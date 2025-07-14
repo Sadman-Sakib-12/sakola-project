@@ -288,7 +288,7 @@ h2 {
 .news {
     position: relative;
     height: 400px;
-    background-image: url(/images/news-letter.png);
+    background-image: url(../images/news-letter.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
