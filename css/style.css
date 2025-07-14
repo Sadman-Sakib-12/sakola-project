@@ -285,27 +285,26 @@ h2 {
 
 
 /*.............newsleter............*/
-.news{
+.news {
     position: relative;
-    height: 300px;
+    height: 400px;
     background-image: url(/images/news-letter.png);
-    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 
-.news .over{
+.news .over {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    background-color: #000d83d7;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #000d83d7;
 }
 
 .news .content {
@@ -348,7 +347,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
-    gap: 40px;
+    gap: 20px;
 }
 
 .Item {
