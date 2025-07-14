@@ -285,42 +285,46 @@ h2 {
 
 
 /*.............newsleter............*/
-
-.newsletter{
+.news {
     position: relative;
     height: 300px;
     background-image: url(/images/news-letter.png);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
-    border-radius: 20px;
+    background-size: contain;
+    border-radius: 15px;
 }
-.newsletter .over{
+
+.news .over {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-   background-color: #000d83d7;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    background-color: #000d83d7;
 }
-  .newsletter .content {
+
+.news .content {
     text-align: center;
     color: white;
-  }
- .newsletter h3 {
+}
+
+.news h3 {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 20px;
-  }
-  .newsletter p {
+}
+
+.news p {
     margin-bottom: 10px;
     color: white;
-  }
-.newsletter .btn{
+}
+
+.news .btn {
     background-color: var(--seconndary-color);
     color: white;
     border: none;
@@ -328,23 +332,36 @@ h2 {
 }
 
 
-
 /*.............footer.............*/
-.fot {
-    max-width: 1440px;
-    width: 100%;
-    background-color: rgb(241, 246, 255);
-
+footer {
+    background-color: var(--background-color);
+    padding: 0px;
 }
 
-.abouts {
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    width: 90%;
+    /* width: 90%; */
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    gap: 20px;
+    padding: 50px 20px;
+    gap: 40px;
+}
+
+.Item {
+    display: flex;
+    flex-direction: column;
+}
+
+.Item ul li a {
+    color: rgba(4, 9, 49, 0.71);
+    text-decoration: none;
+}
+
+.media img {
+    background-color: rgb(34, 94, 212);
 }
 
 .Item li {
